@@ -73,7 +73,7 @@ void print(int a[],int n)
 void rs(int a[],int n)
 {
     int max=max1(a,n),i;
-    for(i=1;i<max/i;i*=10)
+    for(i=1;0<max/i;i*=10)
     {
         cs(a,max,n,i);
     }
